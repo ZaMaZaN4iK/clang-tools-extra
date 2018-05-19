@@ -22,6 +22,7 @@
 #include "ReplaceRandomShuffleCheck.h"
 #include "ReturnBracedInitListCheck.h"
 #include "ShrinkToFitCheck.h"
+#include "SimplifyIfCheck.h"
 #include "UnaryStaticAssertCheck.h"
 #include "UseAutoCheck.h"
 #include "UseBoolLiteralsCheck.h"
@@ -63,6 +64,8 @@ public:
     CheckFactories.registerCheck<ReturnBracedInitListCheck>(
         "modernize-return-braced-init-list");
     CheckFactories.registerCheck<ShrinkToFitCheck>("modernize-shrink-to-fit");
+    CheckFactories.registerCheck<SimplifyIfCheck>(
+        "modernize-simplify-if");
     CheckFactories.registerCheck<UnaryStaticAssertCheck>(
         "modernize-unary-static-assert");
     CheckFactories.registerCheck<UseAutoCheck>("modernize-use-auto");

@@ -92,8 +92,8 @@ Clang-Tidy Checks
    cppcoreguidelines-pro-type-vararg
    cppcoreguidelines-slicing
    cppcoreguidelines-special-member-functions
-   fuchsia-header-anon-namespaces (redirects to google-build-namespaces) <fuchsia-header-anon-namespaces>
    fuchsia-default-arguments
+   fuchsia-header-anon-namespaces (redirects to google-build-namespaces) <fuchsia-header-anon-namespaces>
    fuchsia-multiple-inheritance
    fuchsia-overloaded-operator
    fuchsia-restrict-system-includes
@@ -173,6 +173,7 @@ Clang-Tidy Checks
    modernize-replace-random-shuffle
    modernize-return-braced-init-list
    modernize-shrink-to-fit
+   modernize-simplify-if
    modernize-unary-static-assert
    modernize-use-auto
    modernize-use-bool-literals
@@ -228,6 +229,7 @@ Clang-Tidy Checks
    readability-redundant-string-init
    readability-simplify-boolean-expr
    readability-simplify-subscript-expr
+   readability-solar-headers-order-check
    readability-static-accessed-through-instance
    readability-static-definition-in-anonymous-namespace
    readability-string-compare
